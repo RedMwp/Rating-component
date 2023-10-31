@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin:0 auto;
+    background: hsl(216, 12%, 8%);
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+}
+main{
+    height:350px;
+    background:linear-gradient(to bottom right,hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    width: 350px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+    overflow-y: scroll;
+    position: relative;
+}
+img[alt=star]{
+    height:50px;
+    width:50px;
+    background:hsl(213, 19%, 18%);
+    padding:.7em;
+    border-radius:100%;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.3);
+}
+p{
+    line-height:1.4;
+    font-size:15px;
+}
+i{
+    height:50px;
+    width:50px;
+    background:hsl(213, 19%, 18%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:100%;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.3);
+    font-style:normal;
+    font-weight: 700;
+    font-size:1.3em;
+    transition: .4s ease-in-out;
+}
+i:hover{
+    background:hsl(25, 97%, 53%);
+}
+.rating-state{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:1em;
+}
+.wraper{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.button{
+    width:100%;
+    height:40px;
+    background:hsl(25, 97%, 53%);
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight: 700;
+    font-size:1.2em;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.3);
+    opacity: .8;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    transition: .4s ease-in-out;
+}
+.button:hover{
+    background:#fff;
+    color:hsl(25, 97%, 53%);
+}
+.thank-you-state{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 1em;
+    position: absolute;
+    top:0;
+    
+}
+.thank-you-state .wraper{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.selected{
+    display: flex;
+    justify-content:space-between;
+    width: 65%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%) }
+
