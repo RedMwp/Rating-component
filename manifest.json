@@ -1,6 +1,9 @@
 {
     "name":"rating component",
     "short_name":"component",
+    "start_url":"/index.html",
     "display":"standalone",
-    "oriantation":"potrait"
+    "theme_color":"#252525",
+    "background_color":"#171717",
+    "oriantation":"potrait-primary"
 }
